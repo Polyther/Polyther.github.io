@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Word Prediction</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Word Prediction">
+  <meta name="author" content="Hu TANG">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  
+  <hgroup class="auto-fadein">
+    <h1>Word Prediction</h1>
+    <h2>The instruction for the final shiny app</h2>
+    <p>Hu TANG<br/>Acc  2022-10-03</p>
+  </hgroup>
+  
+  <article></article>  
+  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  
+  <hgroup>
+    <h2>Introductions</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <pre><code>1. The slide is made for the fianl project of the course of Capstone 
+for the data science specialization.
+
+2.The app that the slide is intrducing has built a predictive modle-forcasting words 
+by some algorithm, which is able to predicate the following word after 
+the users enters some phrase.  
+</code></pre>
+
+<p><img src="49.png" alt="A caption" width="100%" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>How to use the app?</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p>At the left side of the app, you could find a text box where you need to fill in some phrases without the last word which you want to predict with the app; Then on the right side, the words predicted by the app will turn on, and if that is something wrong with the entered phrase, a notice will come out.</p>
+
+<p><img src="18.png" alt="A caption" width="100%" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>The related model used</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p>The model named &#39;Katz Backoff&#39; is built into the app, which is a common n-gram language model used to estimate a word under the conditional probability. It is capable of estimating by going through the short history models so that the model with these most reliable information can be used to make a word prediction.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  
+  <hgroup>
+    <h2>Some related links</h2>
+  </hgroup>
+  
+  <article data-timings="">
+    <p>If you haven&#39;t tried out the app, go 
+<a href="https://polytherfromgithub.shinyapps.io/projectforweek7/?_ga=2.39271072.287820585.1665083422-1801894992.1665083422/">here</a> 
+to try it!</p>
+
+<p>Also, some important files I think you will need are in the repo below:
+Github:  <a href="https://github.com/Polyther/Polyther.github.io/tree/main/directory">https://github.com/Polyther/Polyther.github.io/tree/main/directory</a></p>
+
+<p>Thanks!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+  
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introductions'>
+         1
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='How to use the app?'>
+         2
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='The related model used'>
+         3
+      </a>
+    </li>
+    
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Some related links'>
+         4
+      </a>
+    </li>
+    
+    </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
